@@ -10,6 +10,13 @@ module.exports = {
     assetModuleFilename: '[name][ext]',
     clean: true,
   },
+  devServer: {
+    static: './dist',
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
+  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Medicore Restaurant',

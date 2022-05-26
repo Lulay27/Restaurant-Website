@@ -3,7 +3,7 @@ import createDiv from "./msg";
 import "./styles/style.css";
 import Icon from './components/sunset-background.png';
 
-createDiv("The Earth is flat. - Kyrie");
+createDiv('What a beautiful sunset - Lebron James');
 
 const testImg = document.createElement('img');
 testImg.className = 'testImg';
