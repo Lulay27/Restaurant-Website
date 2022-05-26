@@ -6,7 +6,7 @@ const createDiv = (msg) => {
     const randomDiv = document.createElement('div');
     randomDiv.className = 'message';
     randomDiv.innerHTML = msg;
-    document.querySelector('#content').appendChild(randomDiv);
+    document.querySelector('body').appendChild(randomDiv);
 }
 
 export default createDiv;

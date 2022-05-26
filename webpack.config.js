@@ -12,7 +12,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Medicore Restaurant',
+      template: './src/template.html',
     }),
   ],
   module: {
