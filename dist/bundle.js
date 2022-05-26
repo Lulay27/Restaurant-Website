@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _msg
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst message = () => {\r\n    return \"Spider-Man\";\r\n}\r\n\r\nconst createDiv = (msg) => {\r\n    const randomDiv = document.createElement('div');\r\n    randomDiv.className = 'message';\r\n    randomDiv.innerHTML = msg;\r\n    document.querySelector('body').appendChild(randomDiv);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createDiv);\n\n//# sourceURL=webpack://restaurant-website/./src/msg.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst message = () => {\r\n    return \"Spider-Man\";\r\n}\r\n\r\nconst createDiv = (msg) => {\r\n    const randomDiv = document.createElement('div');\r\n    randomDiv.className = 'message';\r\n    randomDiv.innerHTML = msg;\r\n    document.querySelector('#container').appendChild(randomDiv);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createDiv);\n\n//# sourceURL=webpack://restaurant-website/./src/msg.js?");
 
 /***/ }),
 
