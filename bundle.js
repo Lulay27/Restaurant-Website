@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _msg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./msg */ \"./src/msg.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _assets_sunset_background_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/sunset-background.png */ \"./src/assets/sunset-background.png\");\n\r\n\r\n\r\n\r\n\r\n(0,_msg__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"The Earth is flat. - Kyrie\");\r\n\r\nconst testImg = document.createElement('img');\r\ntestImg.className = 'testImg';\r\ntestImg.src = _assets_sunset_background_png__WEBPACK_IMPORTED_MODULE_2__;\r\ndocument.querySelector('.message').appendChild(testImg);\r\n\r\n\n\n//# sourceURL=webpack://restaurant-website/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _msg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./msg */ \"./src/msg.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _components_sunset_background_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/sunset-background.png */ \"./src/components/sunset-background.png\");\n\r\n// import message from \"./msg\";\r\n\r\n\r\n\r\n(0,_msg__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"The Earth is flat. - Kyrie\");\r\n\r\nconst testImg = document.createElement('img');\r\ntestImg.className = 'testImg';\r\ntestImg.src = _components_sunset_background_png__WEBPACK_IMPORTED_MODULE_2__;\r\ndocument.querySelector('.message').appendChild(testImg);\r\n\r\n\n\n//# sourceURL=webpack://restaurant-website/./src/index.js?");
 
 /***/ }),
 
@@ -130,13 +130,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/assets/sunset-background.png":
-/*!******************************************!*\
-  !*** ./src/assets/sunset-background.png ***!
-  \******************************************/
+/***/ "./src/components/sunset-background.png":
+/*!**********************************************!*\
+  !*** ./src/components/sunset-background.png ***!
+  \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"sunset-background.png\";\n\n//# sourceURL=webpack://restaurant-website/./src/assets/sunset-background.png?");
+eval("module.exports = __webpack_require__.p + \"sunset-background.png\";\n\n//# sourceURL=webpack://restaurant-website/./src/components/sunset-background.png?");
 
 /***/ })
 
