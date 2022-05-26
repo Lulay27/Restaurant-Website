@@ -1,7 +1,7 @@
 import createDiv from "./msg";
-import message from "./msg";
+// import message from "./msg";
 import "./styles/style.css";
-import Icon from './assets/sunset-background.png';
+import Icon from './components/sunset-background.png';
 
 createDiv("The Earth is flat. - Kyrie");
 
