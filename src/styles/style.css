@@ -1,4 +1,31 @@
-.message{
-    color: rgb(75, 48, 138);
-    border: 5px solid black;
+*{
+    
+
 }
+
+header{
+    color:black;
+    border: 1px solid black;
+}
+
+main {
+    color: black;
+    border: 1px solid purple;
+
+    background-image: url(../components/sakura.jpg);
+    /* background-size: cover; */
+}
+
+.main-img {
+
+}
+
+.text1-container, .text2-container, .text3-container{
+    color:black;
+    border: 1px solid salmon;
+}
+
+footer{
+
+}
+

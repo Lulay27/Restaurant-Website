@@ -10,5 +10,5 @@ testImg.className = 'testImg';
 testImg.src = Icon;
 // document.querySelector('.message').appendChild(testImg);
 
-homePage.tester1();
+
 
