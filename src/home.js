@@ -13,9 +13,13 @@ const homePage = (() => {
     // had to go on laptop with an earlier version of code and push cause im lazy lol
 
     elementCreator('','header','','#content');
-    elementCreator('home','div','Home','header');
-    elementCreator('menu','div','Menu','header');
-    elementCreator('contact','div','Contact','header');
+    elementCreator('home','button','Home','header');
+    elementCreator('menu','button','Menu','header');
+    elementCreator('contact','button','Contact','header');
+    // have to select each button and add a common class name for styling
+    document.querySelector('#home').className = 'tab';
+    document.querySelector('#menu').className = 'tab';
+    document.querySelector('#contact').className = 'tab';
     elementCreator('','main','','#content');
     elementCreator('main-img','img','','main');
     elementCreator('title-container','div','','main');
