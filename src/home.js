@@ -36,8 +36,8 @@ const homePage = (() => {
     elementCreator('','ul','Friday: 5pm - 9pm','#text2-container');
     elementCreator('','ul','Saturday: 5pm - 9pm','#text2-container');
     elementCreator('text3-container','div','','main');
-    elementCreator('text3-container','h3','Location','#text3-container');
-    elementCreator('text3-container','div','308 Negra Arroyo Lane, Albuquerque, New Mexico','#text3-container');
+    elementCreator('','h3','Location','#text3-container');
+    elementCreator('','div','308 Negra Arroyo Lane, Albuquerque, New Mexico','#text3-container');
     elementCreator('','footer','','main');
     elementCreator('','div','Website created by Eric Le','footer');
 

@@ -5,12 +5,12 @@
 
 header{
     color:black;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 
 main {
     color: black;
-    border: 1px solid purple;
+    border: 5px solid purple;
 
     background-image: url(../components/sakura.jpg);
     /* background-size: cover; */
@@ -20,12 +20,24 @@ main {
 
 }
 
-.text1-container, .text2-container, .text3-container{
+#text1-container {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text2-container, #text3-container{
     color:black;
-    border: 1px solid salmon;
+    border: 5px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
-
+    color: black;
+    border: 5px solid green;
 }
 
