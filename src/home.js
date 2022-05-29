@@ -28,7 +28,8 @@ const homePage = (() => {
     elementCreator('','p','Most Medicore food in town.','#text1-container');
     elementCreator('','h3','-Eric','#text1-container');
     elementCreator('text2-container','div','','main');
-    elementCreator('','h3','Sunday: 5pm - 9pm','#text2-container');
+    elementCreator('','h3','Hours','#text2-container');
+    elementCreator('','ul','Sunday: 5pm - 9pm','#text2-container');
     elementCreator('','ul','Monday: CLOSED','#text2-container');
     elementCreator('','ul','Tuesday: CLOSED','#text2-container');
     elementCreator('','ul','Wednesday: CLOSED','#text2-container');

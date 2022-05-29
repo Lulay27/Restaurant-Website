@@ -20,6 +20,10 @@ main {
 
 }
 
+#title-container {
+    border: 3px solid black;
+}
+
 #text1-container {
     border: 3px solid black;
     display: flex;
