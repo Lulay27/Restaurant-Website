@@ -19,6 +19,7 @@ module.exports = {
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
+      inject: true,
       title: 'Medicore Restaurant',
       template: './src/template.html',
     }),

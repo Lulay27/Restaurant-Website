@@ -3,7 +3,7 @@ import homePage from './home.js';
 const menuPage = (() => {
 
     const renderMenu = () => {
-        
+
     }
 
     return {
@@ -11,3 +11,5 @@ const menuPage = (() => {
     };
 
 })();
+
+export default menuPage;

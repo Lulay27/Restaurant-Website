@@ -47,7 +47,6 @@ const homePage = (() => {
     }
 
     const removeHtml = () => {
-
         document.getElementById('home-main-page').style.display = 'none';
     }
 
