@@ -14,17 +14,13 @@ const clickEvents = (() => {
 
         if (e.target.id == 'menu') {
             homePage.removeHtml('home-header-page');
-            // homePage.removeHtml('menu-header-page');
             homePage.removeHtml('contact-header-page');
-            
             homePage.revealHtml('menu-header-page');
         }
 
         if (e.target.id == 'home') {
-            // homePage.removeHtml('home-header-page');
             homePage.removeHtml('menu-header-page');
             homePage.removeHtml('contact-header-page');
-            
             homePage.revealHtml('home-header-page');
         }
     }

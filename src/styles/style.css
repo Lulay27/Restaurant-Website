@@ -23,7 +23,7 @@ button{
     cursor: pointer;
 }
 
-main {
+main, #menu-main-page {
     background-image: url(../components/sakura.jpg);
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ main {
     gap: 20px;
 }
 
-#title-container {
+#title-container, #menu-title-container {
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -49,13 +49,14 @@ h1 {
 
 }
 
-#text-container, #text1-container, #text2-container, #text3-container {
+#text-container, #text1-container, #text2-container, #text3-container
+#menu-text-container, #menu-text1-container, #menu-text2-container, #menu-text3-container {
     border-radius: 10px;
     font-size: 20px;
     border: thick double black;
 }
 
-#text1-container {
+#text1-container, #menu-text1-container {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -69,7 +70,7 @@ h3 {
     
     
 }
-#text2-container {
+#text2-container, #menu-text2-container {
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -79,7 +80,7 @@ h3 {
     height: 300px;
 }
 
-#text3-container {
+#text3-container, #menu-text3-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +90,7 @@ h3 {
     height: 150px;
 }
 
-footer {
+footer #footer-main-page {
     display: flex;
     justify-content: end;
 }

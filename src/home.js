@@ -1,4 +1,5 @@
-// module pattern creates the load (js version of classes)
+// main module
+
 const homePage = (() => {
     // creates element, class name, innerHTML, and appends
     const elementCreator = (name,type,text,parent) => {
