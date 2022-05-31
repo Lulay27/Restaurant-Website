@@ -1,16 +1,8 @@
 import homePage from './home.js';
+import menuPage from './menu.js';
 
 const clickEvents = (() => {
 
-    // another problem here similar to the append parent in home.js
-    // addeventlistener is root of problem also breaks the dev server
-    // also this problem deletes my bundle.js and creates main.js and runetime.js
-    // same as last problem !!
-
-    // problem comes from the webpackhtmlplugin
-    // the index.html it is generating src is main.js/runtime.js
-    // probably change that to bundle.js in config to fix
-    // cant change config output filename from [name].js to anything
     const navBtn = document.querySelector('#content');
     const homeBtn = document.querySelector('#home');
     const menuBtn = document.querySelector('#menu');
@@ -25,14 +17,20 @@ const clickEvents = (() => {
         // will each create its own div with unique class names
         // that class name will append to the static div 'content'
         // the pattern for each if statement is as follows:
-        // for example if menu is pressed remove home/contact pages
+        // for example if menu is pressed remove home/contact/menu pages
         // and renderMenu
         // same for home and contact on clicks
 
 
         // if menu is pressed remove current html
+
+        // problem must check if page has been rendered to remove it
         if (e.target.id == 'menu') {
-            homePage.removeHtml();
+            homePage.removeHtml('home-main-page');
+            homePage.removeHtml('menu-main-page');
+            homePage.removeHtml('contact-main-page');
+            
+            menuPage.renderMenu();
         }
 
 

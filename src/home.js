@@ -14,11 +14,13 @@ const homePage = (() => {
 
     const renderHome = () => {
         elementCreator('home-main-page','div','','#content');
+        elementCreator('menu-main-page','div','','#content');
+        elementCreator('contact-main-page','div','','#content');
+
         elementCreator('','header','','#home-main-page');
         elementCreator('home','button','Home','header');
         elementCreator('menu','button','Menu','header');
         elementCreator('contact','button','Contact','header');
-        // have to select each button and add a common class name for styling
         document.querySelector('#home').className = 'tab';
         document.querySelector('#menu').className = 'tab';
         document.querySelector('#contact').className = 'tab';
@@ -46,13 +48,19 @@ const homePage = (() => {
         elementCreator('','div','Website created by Eric Le','footer');
     }
 
-    const removeHtml = () => {
-        document.getElementById('home-main-page').style.display = 'none';
+    const removeHtml = (tabId) => {
+        document.getElementById(tabId).style.display = 'none';
+    }
+
+    const revealHtml = (tabId) => {
+        document.getElementById(tabId).style.display = 'block';
     }
 
     return {
+        elementCreator,
         renderHome,
         removeHtml,
+        revealHtml,
     };
 
 })();

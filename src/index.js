@@ -6,5 +6,6 @@ import clickEvents from './onclick'
 
 // on load home page
 homePage.renderHome();
+// menuPage.renderMenu();
 
 
