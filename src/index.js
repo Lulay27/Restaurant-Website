@@ -4,7 +4,6 @@ import homePage from './home.js';
 import menuPage from './menu'
 import clickEvents from './onclick'
 
-// on load home page
 homePage.renderHome(); // this removes menu and contact for initial load
 
 

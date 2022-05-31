@@ -8,18 +8,18 @@ const homePage = (() => {
         document.querySelector(parent).appendChild(temp);
     }
 
-    elementCreator('home-main-page','div','','#content');
-    elementCreator('menu-main-page','div','','#content');
-    elementCreator('contact-main-page','div','','#content');
+    elementCreator('home-header-page','div','','#content');
+    elementCreator('menu-header-page','div','','#content');
+    elementCreator('contact-header-page','div','','#content');
 
-    elementCreator('','header','','#home-main-page');
+    elementCreator('','header','','#home-header-page');
     elementCreator('home','button','Home','header');
     elementCreator('menu','button','Menu','header');
     elementCreator('contact','button','Contact','header');
     document.querySelector('#home').className = 'tab';
     document.querySelector('#menu').className = 'tab';
     document.querySelector('#contact').className = 'tab';
-    elementCreator('','main','','#home-main-page');
+    elementCreator('','main','','#home-header-page');
     elementCreator('main-img','img','','main');
     elementCreator('title-container','div','','main');
     elementCreator('','h1','Mediocore Eats','#title-container');
@@ -39,12 +39,12 @@ const homePage = (() => {
     elementCreator('text3-container','div','','main');
     elementCreator('','h3','Location','#text3-container');
     elementCreator('','div','308 Negra Arroyo Lane, Albuquerque, New Mexico','#text3-container');
-    elementCreator('','footer','','#home-main-page');
+    elementCreator('','footer','','#home-header-page');
     elementCreator('','div','Website created by Eric Le','footer');
     
     const renderHome = () => {      // initial load display home only
-        removeHtml('menu-main-page');
-        removeHtml('contact-main-page');
+        removeHtml('menu-header-page');
+        removeHtml('contact-header-page');
     }
 
     const removeHtml = (tabId) => {

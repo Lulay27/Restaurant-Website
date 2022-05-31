@@ -12,28 +12,21 @@ const clickEvents = (() => {
     
     function render(e) {
 
-        // my STRAT
-        // each home.js, menu.js, and contact.js
-        // will each create its own div with unique class names
-        // that class name will append to the static div 'content'
-        // the pattern for each if statement is as follows:
-        // for example if menu is pressed remove home/contact/menu pages
-        // and renderMenu
-        // same for home and contact on clicks
-
-
-        // if menu is pressed remove current html
-
-        // problem must check if page has been rendered to remove it
         if (e.target.id == 'menu') {
-            homePage.removeHtml('home-main-page');
-            homePage.removeHtml('menu-main-page');
-            homePage.removeHtml('contact-main-page');
+            homePage.removeHtml('home-header-page');
+            // homePage.removeHtml('menu-header-page');
+            homePage.removeHtml('contact-header-page');
             
-            menuPage.renderMenu();
+            homePage.revealHtml('menu-header-page');
         }
 
-
+        if (e.target.id == 'home') {
+            // homePage.removeHtml('home-header-page');
+            homePage.removeHtml('menu-header-page');
+            homePage.removeHtml('contact-header-page');
+            
+            homePage.revealHtml('home-header-page');
+        }
     }
 
     // const render = (e) => {      how come this not same as above
