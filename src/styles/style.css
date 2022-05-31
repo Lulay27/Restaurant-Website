@@ -5,11 +5,11 @@
 
 }
 
-header{
+header, #menu-container, #contact-container{
     display: flex;
 }
 
-.tab{
+.tab, button{
     display: flex;
     justify-content: center;
     align-items: center;

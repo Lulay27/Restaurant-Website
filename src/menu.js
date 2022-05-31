@@ -10,14 +10,16 @@ import homePage from './home.js';
 
 const menuPage = (() => {
 
+    homePage.elementCreator('menu-container','div','','#menu-main-page');
+    homePage.elementCreator('home','button','Home','#menu-container');
+    homePage.elementCreator('menu','button','Menu','#menu-container');
+    homePage.elementCreator('contact','button','Contact','#menu-container');
+
     const renderMenu = () => {
 
         homePage.revealHtml('menu-main-page');
 
-        homePage.elementCreator('menu-container','div','','#menu-main-page');
-        homePage.elementCreator('home','button','Home','#menu-container');
-        homePage.elementCreator('menu','button','Menu','#menu-container');
-        homePage.elementCreator('contact','button','Contact','#menu-container');
+        
     }
 
 
