@@ -1,5 +1,6 @@
 import homePage from './home.js';
 
+
 const clickEvents = (() => {
 
     const navBtn = document.querySelector('#content');
