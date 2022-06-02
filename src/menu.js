@@ -24,10 +24,10 @@ const menuPage = (() => {
     homePage.elementCreator('','ul','Bannana peeled','#menu-text2-container');
     homePage.elementCreator('','ul','Boiled egg','#menu-text2-container');
     homePage.elementCreator('menu-text3-container','div','','#menu-main-page');
-    homePage.elementCreator('','h3','Location','#menu-text3-container');
-    homePage.elementCreator('','div','308 Negra Arroyo Lane, Albuquerque, New Mexico','#menu-text3-container');
-    homePage.elementCreator('footer-main-page','div','','#menu-main-page');
-    homePage.elementCreator('','div','Website created by Eric Le','#footer-main-page');
+    homePage.elementCreator('','h3','Happy Hour','#menu-text3-container');
+    homePage.elementCreator('','div',' Saturday & Sunday','#menu-text3-container');
+    homePage.elementCreator('footer-menu-page','div','','#menu-main-page');
+    homePage.elementCreator('','div','Website created by Eric Le','#footer-menu-page');
 
     return {
         

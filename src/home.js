@@ -9,6 +9,7 @@ const homePage = (() => {
         document.querySelector(parent).appendChild(temp);
     }
 
+    // creating tabs intially
     elementCreator('home-header-page','div','','#content');
     elementCreator('menu-header-page','div','','#content');
     elementCreator('contact-header-page','div','','#content');
@@ -43,7 +44,8 @@ const homePage = (() => {
     elementCreator('','footer','','#home-header-page');
     elementCreator('','div','Website created by Eric Le','footer');
     
-    const renderHome = () => {      // initial load display home only
+    // initial load display home only
+    const renderHome = () => {      
         removeHtml('menu-header-page');
         removeHtml('contact-header-page');
     }

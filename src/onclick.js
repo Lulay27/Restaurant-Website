@@ -1,13 +1,8 @@
 import homePage from './home.js';
-import menuPage from './menu.js';
 
 const clickEvents = (() => {
 
     const navBtn = document.querySelector('#content');
-    const homeBtn = document.querySelector('#home');
-    const menuBtn = document.querySelector('#menu');
-    const aboutBtn = document.querySelector('#contact');
-    
     navBtn.addEventListener('click',render);
     
     function render(e) {
@@ -22,6 +17,12 @@ const clickEvents = (() => {
             homePage.removeHtml('menu-header-page');
             homePage.removeHtml('contact-header-page');
             homePage.revealHtml('home-header-page');
+        }
+
+        if (e.target.id == 'contact') {
+            homePage.removeHtml('menu-header-page');
+            homePage.removeHtml('home-header-page');
+            homePage.revealHtml('contact-header-page');
         }
     }
 
